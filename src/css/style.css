@@ -17,7 +17,7 @@ a {
 }
 
 body { 
-    background-image: url(../img/fundo-site.jpg);
+    background-image: url(../img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,9 +31,9 @@ body {
 }
 
 .cartao { 
-    background-color: #070d12;
+    background-color: black;
     width: 370px;
-    border: 2px solid #e126d9;
+    border: 2px solid #e228d8;
     border-radius: 10px;
     overflow: hidden;
 }

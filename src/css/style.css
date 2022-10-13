@@ -13,4 +13,164 @@ ul {
 
 a { 
     text-decoration: none;
+    color: #e126d9;
 }
+
+body { 
+    background-image: url(../img/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao { 
+    background-color: #070d12;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cartao .minhasInformacoes { 
+    padding-top: 20PX;
+    display: flex;
+    flex-direction: column;    
+    align-items: center; /*alinha horizontalmente por causa do flex direction colum*/
+    gap: 10px;
+}
+
+.cartao .minhasInformacoes img { 
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    border: 4px solid #df76da;
+}
+
+.cartao .minhasInformacoes .nome { 
+    font-size: 22px;
+}
+
+.cartao .minhasInformacoes .cargo { 
+    font-size: 18px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo {
+    margin-top: 15px;
+}
+
+.cartao .abas { 
+    display: flex;
+}
+
+.cartao .abas .aba { 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas img {
+    width: 30px;
+}
+
+.cartao .abas .aba.selecionado { 
+    background-color: #262626;
+}
+
+.cartao .informacoesAbas { 
+    background-color: #262626;
+}
+
+/*pseudo classes */
+.cartao .abas .aba:hover{ 
+    background-color: #414141;   
+}
+
+.informacoesAbas .informacao { 
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoesAbas .informacao.selecionado { 
+    display: block;
+}
+
+.informacoesAbas .subTitulo { 
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.informacoesAbas .descricao { 
+    font-size: 14px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoesAbas .descricao span { 
+    color: #e126d9;
+}
+.redeSociais li a {
+    display: block; 
+    background-color: #e126d9;
+    color: #f3f3f3;
+    width: 250px; 
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redeSociais li a:hover {
+    opacity: 0.8px;
+}
+
+.redeSociais {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.redeSociais .curriculo { 
+    background-color: #06c185;
+}
+
+.redeSociais .linkedin { 
+    background-color: #1d87bd;
+}
+
+.redeSociais .github { 
+    background-color: #545454;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: #111111;
+    border-radius: 18px;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: #e228d8;
+    border-radius: 20px;
+    border: 2px solid #070d12;
+}
+
+ 

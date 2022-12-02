@@ -122,6 +122,7 @@ body {
 .informacoesAbas .descricao span { 
     color: #e126d9;
 }
+
 .redeSociais li a {
     display: block; 
     background-color: #e126d9;
@@ -132,6 +133,7 @@ body {
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
 }
+
 .projetos li a {
     display: block; 
     background-color: #e126d9;
@@ -185,6 +187,7 @@ body {
 .produto .cadastro { 
     background-color: #2428fa;
 }
+
 *::-webkit-scrollbar {
     width: 8px;
   }

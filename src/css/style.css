@@ -188,6 +188,10 @@ body {
     background-color: #2428fa;
 }
 
+.produto .starbucks {
+    background-color: #005c3f;
+}
+
 *::-webkit-scrollbar {
     width: 8px;
   }
